@@ -1,4 +1,5 @@
 ## Git Repository Updater Script for osu!lazer
+`NOTICE: This ONLY supports Linux`
 ### Prerequisites for this script to work
 * git is installed
 * NuGet is installed
