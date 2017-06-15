@@ -1,8 +1,9 @@
 #!/bin/bash
-echo Git Repository Updater Script for osu!lazer v1.0.1
+echo Git Repository Updater Script for osu!lazer v1.0.2
 echo By UserContributer on Github AKA MasicoreLord from osu!
 echo My osu! profile: https://osu.ppy.sh/users/10105376
 echo 
+cd osu
 git pull
 git submodule update --recursive
 nuget update -self
